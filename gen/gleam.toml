@@ -1,0 +1,7 @@
+name = "gg_icons_heroicons_gen"
+version = "1.0.0"
+description = "Dev-only generator for gg_icons_heroicons. Not published with the library."
+
+[dependencies]
+gleam_stdlib = ">= 1.0.0 and < 2.0.0"
+gg_icon_gen = { path = "../../../gg_ui/packages/gg_icon_gen" }

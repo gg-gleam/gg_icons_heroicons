@@ -1,0 +1,12 @@
+name = "gg_icons_heroicons"
+version = "0.1.0"
+description = "Heroicons for Lustre, baked into Gleam — dual-target, tree-shakeable, conforming to the gg_icon interface. Four variants: outline + solid + mini + micro. Generated from upstream Heroicons; do not hand-edit the shard modules."
+licences = ["MIT"]
+
+[dependencies]
+gleam_stdlib = ">= 1.0.0 and < 2.0.0"
+lustre = ">= 5.7.0 and < 6.0.0"
+gg_icon = { path = "../../gg_ui/packages/gg_icon" }
+
+[dev_dependencies]
+gleeunit = ">= 1.0.0 and < 2.0.0"
